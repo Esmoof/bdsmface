@@ -1,0 +1,735 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en"><head>
+<title>500 Error</title>
+<meta name="keywords" content="bdsmface open source software, free BDSM social networking">
+<meta name="description" content="If you see an error 500 on your website, there are two ways of dealing with it.
+1. 500.phtml
+
+
+You can identify this error by looking at your website ">
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-language" content="en">
+<link rel="stylesheet" type="text/css" href="500%20Error_files/ow.css" media="all">
+<link rel="stylesheet" type="text/css" href="500%20Error_files/base.css" media="all">
+<link rel="stylesheet" type="text/css" href="500%20Error_files/origin50e3ff29e85ce.css" media="all">
+<link rel="stylesheet" type="text/css" href="500%20Error_files/fbconnect.css" media="all">
+<style media="all">
+
+    .forum_search_form {
+        display: inline-block;
+    }
+    
+    .forum_search_form input[type=text] {
+        width: 170px;
+        padding-top: 3px;
+        padding-bottom: 6px;
+    }
+
+ 
+
+    .ow_forum_attachment_icon {
+        display: inline-block;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        width: 14px;
+        height: 17px;
+    }
+    .forum_attachments_label {
+        margin: 15px 0 5px;
+        padding-left: 5px;
+        font-weight: bold;
+    }
+
+    .forum_add_post .jhtmlarea {
+        margin: 0px auto;
+    }
+
+    .post_content img { max-width: 100%; }
+    .post_content { overflow: hidden; }
+
+ 
+
+.ow_ipc_toolbar span{
+    display:inline-block;
+}
+
+ 
+
+html div.ow_console_list_wrapper
+{
+    min-height: 0px;
+    max-height: 257px;
+}
+
+ 
+
+.connect_button_list {
+    padding-top: 5px;
+}
+
+</style><link rel="shortcut icon" type="image/x-icon" href="http://bdsmface.com/ow_userfiles/plugins/base/favicon.ico">
+<script type="text/javascript" src="500%20Error_files/jquery-1.js"></script><link href="500%20Error_files/css.css" rel="stylesheet" type="text/css">
+<link href="500%20Error_files/css.htm" rel="stylesheet" type="text/css">
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border-spacing:0;border:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/y6/x/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/y6/x/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/y6/x/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+/* @noflip */
+.fb_dialog_top_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+/* @noflip */
+.fb_dialog_top_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+/* @noflip */
+.fb_dialog_bottom_left{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+/* @noflip */
+.fb_dialog_bottom_right{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yD/x/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;left:-10000px;overflow:visible;position:absolute;top:-10000px;width:100%
+}
+.fb_dialog.fb_dialog_mobile.loading{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yc/x/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0 0, 0 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0 0, 0 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yJ/x/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{position:relative;display:-moz-inline-block;display:inline-block}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_iframe_widget span{position:relative;display:inline-block;vertical-align:text-bottom;text-align:justify}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_fluid span{width:100%}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(http://static.ak.fbcdn.net/rsrc.php/v2/yJ/x/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_button_simple,
+.fb_button_simple_rtl{background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yH/x/eIpbnVKI9lR.png);background-repeat:no-repeat;cursor:pointer;outline:none;text-decoration:none}
+.fb_button_simple_rtl{background-position:right 0}
+.fb_button_simple .fb_button_text{margin:0 0 0 20px;padding-bottom:1px}
+.fb_button_simple_rtl .fb_button_text{margin:0 10px 0 0}
+a.fb_button_simple:hover .fb_button_text,
+a.fb_button_simple_rtl:hover .fb_button_text,
+.fb_button_simple:hover .fb_button_text,
+.fb_button_simple_rtl:hover .fb_button_text{text-decoration:underline}
+.fb_button,
+.fb_button_rtl{background:#29447e url(http://static.ak.fbcdn.net/rsrc.php/v2/yl/x/FGFbc80dUKj.png);background-repeat:no-repeat;cursor:pointer;display:inline-block;padding:0 0 0 1px;text-decoration:none;outline:none}
+.fb_button .fb_button_text,
+.fb_button_rtl .fb_button_text{background:#5f78ab url(http://static.ak.fbcdn.net/rsrc.php/v2/yl/x/FGFbc80dUKj.png);border-top:solid 1px #879ac0;border-bottom:solid 1px #1a356e;color:#fff;display:block;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;font-weight:bold;padding:2px 6px 3px 6px;margin:1px 1px 0 21px;text-shadow:none}
+a.fb_button,
+a.fb_button_rtl,
+.fb_button,
+.fb_button_rtl{text-decoration:none}
+a.fb_button:active .fb_button_text,
+a.fb_button_rtl:active .fb_button_text,
+.fb_button:active .fb_button_text,
+.fb_button_rtl:active .fb_button_text{border-bottom:solid 1px #29447e;border-top:solid 1px #45619d;background:#4f6aa3;text-shadow:none}
+.fb_button_xlarge,
+.fb_button_xlarge_rtl{background-position:left -60px;font-size:24px;line-height:30px}
+.fb_button_xlarge .fb_button_text{padding:3px 8px 3px 12px;margin-left:38px}
+a.fb_button_xlarge:active{background-position:left -99px}
+.fb_button_xlarge_rtl{background-position:right -268px}
+.fb_button_xlarge_rtl .fb_button_text{padding:3px 8px 3px 12px;margin-right:39px}
+a.fb_button_xlarge_rtl:active{background-position:right -307px}
+.fb_button_large,
+.fb_button_large_rtl{background-position:left -138px;font-size:13px;line-height:16px}
+.fb_button_large .fb_button_text{margin-left:24px;padding:2px 6px 4px 6px}
+a.fb_button_large:active{background-position:left -163px}
+.fb_button_large_rtl{background-position:right -346px}
+.fb_button_large_rtl .fb_button_text{margin-right:25px}
+a.fb_button_large_rtl:active{background-position:right -371px}
+.fb_button_medium,
+.fb_button_medium_rtl{background-position:left -188px;font-size:11px;line-height:14px}
+a.fb_button_medium:active{background-position:left -210px}
+.fb_button_medium_rtl{background-position:right -396px}
+.fb_button_text_rtl,
+.fb_button_medium_rtl .fb_button_text{padding:2px 6px 3px 6px;margin-right:22px}
+a.fb_button_medium_rtl:active{background-position:right -418px}
+.fb_button_small,
+.fb_button_small_rtl{background-position:left -232px;font-size:10px;line-height:10px}
+.fb_button_small .fb_button_text{padding:2px 6px 3px;margin-left:17px}
+a.fb_button_small:active,
+.fb_button_small:active{background-position:left -250px}
+.fb_button_small_rtl{background-position:right -440px}
+.fb_button_small_rtl .fb_button_text{padding:2px 6px;margin-right:18px}
+a.fb_button_small_rtl:active{background-position:right -458px}
+.fb_share_count_wrapper{position:relative;float:left}
+.fb_share_count{background:#b0b9ec none repeat scroll 0 0;color:#333;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;text-align:center}
+.fb_share_count_inner{background:#e8ebf2;display:block}
+.fb_share_count_right{margin-left:-1px;display:inline-block}
+.fb_share_count_right .fb_share_count_inner{border-top:solid 1px #e8ebf2;border-bottom:solid 1px #b0b9ec;margin:1px 1px 0 1px;font-size:10px;line-height:10px;padding:2px 6px 3px;font-weight:bold}
+.fb_share_count_top{display:block;letter-spacing:-1px;line-height:34px;margin-bottom:7px;font-size:22px;border:solid 1px #b0b9ec}
+.fb_share_count_nub_top{border:none;display:block;position:absolute;left:7px;top:35px;margin:0;padding:0;width:6px;height:7px;background-repeat:no-repeat;background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yP/x/bSOHtKbCGYI.png)}
+.fb_share_count_nub_right{border:none;display:inline-block;padding:0;width:5px;height:10px;background-repeat:no-repeat;background-image:url(http://static.ak.fbcdn.net/rsrc.php/v2/yL/x/i_oIVTKMYsL.png);vertical-align:top;background-position:right 5px;z-index:10;left:2px;margin:0 2px 0 0;position:relative}
+.fb_share_no_count{display:none}
+.fb_share_size_Small .fb_share_count_right .fb_share_count_inner{font-size:10px}
+.fb_share_size_Medium .fb_share_count_right .fb_share_count_inner{font-size:11px;padding:2px 6px 3px;letter-spacing:-1px;line-height:14px}
+.fb_share_size_Large .fb_share_count_right .fb_share_count_inner{font-size:13px;line-height:16px;padding:2px 6px 4px;font-weight:normal;letter-spacing:-1px}
+.fb_share_count_hidden .fb_share_count_nub_top,
+.fb_share_count_hidden .fb_share_count_top,
+.fb_share_count_hidden .fb_share_count_nub_right,
+.fb_share_count_hidden .fb_share_count_right{visibility:hidden}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+/* @noflip */
+.fbpluginrecommendationsbarleft{left:10px}
+/* @noflip */
+.fbpluginrecommendationsbarright{right:10px}</style></head>
+<!--[if IE 8]><body class="ow ie8"><![endif]-->
+<!--[if !IE 8]><!--><body class="ow"><div class=" fb_reset" id="fb-root"><script async="" src="500%20Error_files/all.js"></script><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe tabindex="-1" src="500%20Error_files/xd_arbiter.htm" name="fb_xdm_frame_http" id="fb_xdm_frame_http"></iframe><iframe tabindex="-1" src="500%20Error_files/xd_arbiter_002.htm" name="fb_xdm_frame_https" id="fb_xdm_frame_https"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div><!--<![endif]-->
+<div class="ow_page_wrap">
+  <div class="ow_page_padding">
+		<div class="ow_site_panel">
+			
+
+<div class="ow_console clearfix">
+    <div class="ow_console_body clearfix">
+        <div style="ow_floatright">
+                            <div id="console_item_50f7c6c8b5218" class="ow_console_item ">
+    <span class="ow_signin_label ow_signin_delimiter">Sign In</span><span class="ow_ico_signin ow_ico_signin_f"></span>
+    </div>
+                            <div id="console_item_50f7c6c8b537d" class="ow_console_item ow_console_button">
+    <a href="http://bdsmface.com/join" onclick="">Sign up</a>
+    </div>
+                    </div>
+    </div>
+</div>
+			<div class="ow_logo_wrap"><a href="http://bdsmface.com/">Oxwall Software</a></div>
+		</div>
+		<div class="ow_header">
+		
+							<div style="background: url(http://bdsmface.com/ow_userfiles/themes/theme_image_56.png) no-repeat; height: 92px;"></div>
+						<div class="ow_menu_wrap"><ul class="ow_main_menu clearfix">
+<li class="base_main_menu_index"><a href="http://bdsmface.com/index"><span>Main</span></a></li><li class="base_page-349379"><a href="http://demo.bdsmface.org/"><span>Demo</span></a></li><li class="download_main_menu_item"><a href="http://bdsmface.com/download"><span>Download</span></a></li><li class="base_page-447266"><a href="http://bdsmface.com/hosting"><span>Hosting</span></a></li><li class="store_menu_item_board"><a href="http://bdsmface.com/store"><span>Oxwall Store</span></a></li><li class="market_index_page_heading"><a href="http://bdsmface.com/market/specialists"><span>Oxwall Market</span></a></li><li class="base_page-836409"><a href="http://bdsmface.com/dc"><span>Developers</span></a></li><li class="base_page-815895"><a href="http://docs.bdsmface.org/" target="_blank"><span>Documentation</span></a></li><li class="forum_forum active"><a href="http://bdsmface.com/forum"><span>Forum</span></a></li><li class="base_page-252233"><a href="http://blog.bdsmface.org/"><span>Blog</span></a></li></ul></div>
+		</div>
+		<div class="ow_page_container">
+			<div class="ow_canvas">
+				<div class="ow_page ow_bg_color clearfix">
+					<h1 class="ow_stdmargin ow_ic_script">500 Error | Forum</h1>
+					<div class="ow_content">
+						<div style="display:none"><div id="base_cmp_floatbox_ajax_signin"><div class="ow_sign_in_wrap">
+<h2>Oxwall Software</h2>
+<form id="form_66759879" method="post" action="http://bdsmface.com/base/user/ajax-sign-in/" name="sign-in">
+<input name="form_name" id="input_49925978" value="sign-in" type="hidden">
+
+     <div class="clearfix">
+        <div class="ow_sign_in">
+            <div class="ow_box_cap">
+	<div class="ow_box_cap_right">
+		<div class="ow_box_cap_body">
+			<h3 class="ow_ic_file">Please sign in</h3>
+		</div>
+	</div>
+</div>
+<div class="ow_box ow_break_word" style="">
+
+
+                <div class="ow_user_name">
+                    <input name="identity" id="input_87976772" value="Username/Email" class="invitation" type="text">
+                </div>
+                <div class="ow_password">
+                    <input name="password" id="input_60105256" value="password" class="invitation" type="password">
+                </div>
+                <div class="ow_form_options clearfix">
+                    <div class="ow_right">
+                        <span class="ow_button"><span class=" ow_positive"><input value="Sign In" id="input_25257664" class="ow_positive" name="submit" type="submit"></span></span>
+                    </div>
+                    <p class="ow_remember_me"><input name="remember" id="input_1681376" checked="checked" type="checkbox"><label for="input_1681376">Remember me</label></p>
+                    <p class="ow_forgot_pass"><a href="http://bdsmface.com/forgot-password">Forgot Password</a></p>
+                </div>
+            
+	<div class="ow_box_bottom_left"></div>
+	<div class="ow_box_bottom_right"></div>
+	<div class="ow_box_bottom_body"></div>
+	<div class="ow_box_bottom_shadow"></div>
+</div>
+            <div class="ow_connect_buttons">
+                <div class="connect_button_cont clearfix"><span class="ow_connect_text">or sign in with</span>
+<div class="connect_button_list">
+    <a class="fb_button fb_button_medium" onclick="OW_FB.login(); return false;">
+    <span class="fb_button_text">Connect</span>
+</a>
+</div></div>
+            </div>
+        </div>
+        <div class="ow_sign_up">
+            <p>Welcome to our community!<br><br>
+Before proceeding you need to register your profile and become our member.</p>
+            <hr>
+            <p> <a href="http://bdsmface.com/join">Join</a></p>
+        </div>
+     </div>
+
+</form>
+</div></div></div>
+						
+
+
+
+<div class="ow_box_empty ow_breadcrumb ow_stdmargin clearfix ow_no_cap ow_break_word" style="">
+
+	
+	<span class="ow_breadcrumb_title">Topic location:</span>	
+	        <span class="ow_breadcrumb_item">
+                    <a href="http://bdsmface.com/forum">Forum home</a>
+                </span>
+        »	        <span class="ow_breadcrumb_item">
+                    <a href="http://bdsmface.com/forum#section-2">Support</a>
+                </span>
+        »	        <span class="ow_breadcrumb_item">
+                    <a href="http://bdsmface.com/forum/5">Bug reports and troubleshooting</a>
+                </span>
+        		
+
+</div>
+
+<div class="ow_smallmargin clearfix">
+    <div class="ow_left"></div>
+    <div class="ow_right ow_txtright">
+
+<form id="forum_search" class="forum_search_form">
+    <input class="invitation" value="Search this topic" id="input_74869023" type="text">
+</form></div>
+</div>
+
+<div class="ow_forum_topic_posts">
+
+
+	<div class="ow_box  ow_stdmargin clearfix ow_no_cap ow_break_word" style="">
+<div id="post-21306">	
+	
+	
+<div class="ow_ipc  clearfix">
+	<div class="ow_ipc_picture">
+                    <div class="ow_avatar">
+<a href="http://bdsmface.com/user/ivashchenkom"><img alt="" src="500%20Error_files/avatar_397_1352883128.jpg"></a>
+<span class="ow_avatar_label" style="background-color: rgb(4, 99, 128)">Team</span></div>
+            </div>
+	<div class="ow_ipc_info">
+		<div class="ow_ipc_header">		<a href="http://bdsmface.com/user/ivashchenkom">Michael I.</a> 
+		<span class="ow_tiny ow_ipc_date ow_remark">Jun 22 '12</span>
+	</div>		<div class="ow_ipc_content">		<div class="post_content"><p style="margin:0;">If you see an error 500 on your website, there are two ways of dealing with it.</p><p style="margin:0;"><br>
+</p><p style="margin:0;">1. <b>500.phtml</b></p><p style="margin:0;"><b><br>
+</b></p><p style="margin:0;"><b><span><a href="http://bdsmface.com/ow_userfiles/plugins/base/908-500phtml.png" target="_blank"><img src="500%20Error_files/908-500phtml.png" style="width: 300px;"></a></span><br>
+</b></p><p style="margin:0;"><b><br>
+</b></p><p style="margin:0;">You can identify this error by looking at your website URL - it would look like <b>http://yoursite.com/500.phtml</b>.
+ This means there is an error on your website. This 500.phtml file was 
+created to be displayed instead of initial error and avoid confusing.</p><p style="margin:0;">To see the real error, go to your server via FTP and open the ow_includes/config.php file. Change value from <b>false </b>to <b>true </b>for the line:</p><p style="margin:0;">define('OW_DEBUG_MODE', false);</p><p style="margin:0;">Save file and check the error once again - you would see the error that triggered the 500 error to be displayed.</p><p style="margin:0;"><br>
+</p><p style="margin:0;">2. <b>Internal Server Error.</b></p><p style="margin:0;"><b><br>
+</b></p><p style="margin:0;"><b><span><a href="http://bdsmface.com/ow_userfiles/plugins/base/909-500.png" target="_blank"><img src="500%20Error_files/909-500.png" style="width: 300px;"></a></span><br>
+</b></p><p style="margin:0;"><b><br>
+</b></p><p style="margin:0;">This error means that your server could not
+ fulfill the request for some reason.&nbsp;Quite literally an "Internal 
+Server Error" is an error on the web server that you're trying to 
+access. That server is misconfigured in some way that is preventing it 
+from responding properly to what you're asking for.</p><p style="margin:0;">There are two most common problems that results this error:</p><p style="margin:0;">1. An error in a script that caused it to fail or output an error message before it started producing valid HTML.</p><p style="margin:0;">2.
+ A permissions issue attempting to access script. Depending on how your 
+web server is configured, quite often it's not enough for the script to 
+have "execute" permission, but it must also be owned by the correct 
+user, and belong to the correct group.</p><p style="margin:0;">The only 
+solution is to contact your hosting company and ask them to check into 
+error_log in order to identify the problem as initial errors are all 
+stored in that file.</p></div>
+					<div class="ow_post_comment ow_ic_edit">The Forum post is edited by <a href="http://bdsmface.com/user/ivashchenkom">Michael I.</a> Jun 22 '12 </div>
+					</div>
+		      		<div class="clearfix">
+      		<div class="ow_ipc_toolbar ow_remark">
+      		                      		    <span class="ow_nowrap post_permalink">
+      		    <a href="http://bdsmface.com/forum/topic/4661?page=1#post-21306">      		    #1
+      		    </a>      		    </span>
+      		      		</div>
+      		</div>
+           </div>
+</div>
+</div>
+	<div class="ow_box_bottom_left"></div>
+	<div class="ow_box_bottom_right"></div>
+	<div class="ow_box_bottom_body"></div>
+	<div class="ow_box_bottom_shadow"></div>
+</div>
+
+</div>
+
+<div class="ow_stdmargin ow_txtright"></div>
+
+    <div class="ow_box_empty ow_smallmargin ow_center ow_no_cap ow_break_word" style="">
+
+        <div class="ow_forum_status"><span class="ow_ic_push_pin ow_icon"></span> This topic is sticky</div>
+    
+</div>
+
+<div class="forum_add_post clearfix">
+
+    <div class="ow_left" style="width: 70%;">
+            <div class="ow_box_empty ow_smallmargin ow_center ow_no_cap ow_break_word" style="">
+
+            <div class="ow_nocontent ow_forum_status"><span class="ow_ic_lock ow_icon"></span> This topic is locked</div>
+        
+</div>
+            </div>
+
+    </div>
+
+    
+    <div id="move_topic_form" style="display: none;">
+        <div class="ow_center">
+        <form id="form_50615797" method="post" action="http://bdsmface.com/forum/moveTopic" name="move-topic-form">
+<input name="form_name" id="input_41299659" value="move-topic-form" type="hidden">
+<input name="topic-id" id="input_10588034" value="4661" type="hidden">
+
+
+            <select name="group-id" id="input_27536975" style="width: 300px;"><option value="0" disabled="1" class="disabled_option">- Support</option><option selected="selected" value="9">General Questions</option><option value="101">Installation Troubleshooter and Server setup</option><option value="13">Oxwall Store</option><option value="0" disabled="1" class="disabled_option">- Community Exchange</option><option value="11">General Chat</option><option value="47">Language packs</option><option value="0" disabled="1" class="disabled_option">- Oxwall International</option><option value="81">Español</option><option value="96">Française</option><option value="82">Deutsch</option><option value="83">Русский</option><option value="84">فارسی</option><option value="85">العربية</option><option value="0" disabled="1" class="disabled_option">- Development</option><option value="117">Custom Code Modifications</option><option value="8">Themes</option></select>
+            <b><span id="input_27536975_error" style="display:none;" class="error"></span></b><br><br>
+
+            <input name="topic-id" id="input_10588034" value="4661" type="hidden">
+
+            <div class="ow_submit"><span class="ow_button"><span class=""><input value="Move" id="input_76618999" name="save" type="submit"></span></span></div>
+        
+</form>
+        </div>
+    </div>
+
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ow_footer">
+	<div class="ow_canvas">
+		<div class="ow_page clearfix">
+			<div class="ow_footer_menu">
+	<a href="http://demo.bdsmface.org/" target="_blank">Demo</a> | 	<a href="http://bdsmface.com/about">About</a> | 	<a href="http://bdsmface.com/policies">Policies &amp; Licenses</a> | 	<a href="http://blog.bdsmface.org/">Blog</a> | 	<a href="http://bdsmface.com/contact">Contact Us</a> | 	<a href="http://bdsmface.com/foundation">Oxwall Foundation</a> | 	<a href="http://bdsmface.com/roadmap">Roadmap</a> | 	<a href="http://bdsmface.com/dc">Developer Central</a> | 	<a href="http://bdsmface.com/hosting">Oxwall hosting</a> | 	<a href="http://bdsmface.com/contribute">Contribute</a> | 	<a href="http://bdsmface.com/partners">Partners</a> | 	<a href="http://www.skalfa.com/" target="_blank">Social software</a> | 	<a href="http://wall.fm/" target="_blank">Create social network</a> | 	<a href="http://bdsmface.com/" target="_blank">Community software</a> | 	<a href="http://www.skadate.com/" target="_blank">Dating software</a></div>
+			<div class="ow_copyright">
+				© Copyright Oxwall Software
+			</div>
+			<div style="float:right;padding-bottom: 30px;">
+				<a href="http://bdsmface.com/" target="_blank" title="Powered by Oxwall Community Software"><img src="500%20Error_files/powered-by-bdsmface.png" alt="Oxwall Community Software"></a>
+			</div>
+		</div>
+	</div>
+</div>    
+<div style="display: none" id="floatbox_prototype">
+
+    
+    <div class="default">
+        <div class="floatbox_canvas floatbox_default">
+            <div class="floatbox_preloader_container">
+                <div class="floatbox_preloader ow_floatbox_preloader"></div>
+            </div>
+
+            <div class="floatbox_container">
+				<div class="ow_bg_color">
+					<div class="floatbox_header">
+						<div class="clearfix floatbox_cap">
+							<h3 class="floatbox_title"></h3>
+							<div class="ow_box_cap_icons clearfix">
+								<a title="close" class="ow_ic_delete close" href="javascript://"></a>
+							</div>
+					   </div>
+					</div>
+					<div class="floatbox_body"></div>
+					<div class="floatbox_bottom"></div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="empty">
+        <div class="floatbox_canvas floatbox_empty">
+            <div class="floatbox_preloader_container">
+                <div class="floatbox_preloader ow_floatbox_preloader"></div>
+            </div>
+
+            <div class="floatbox_container">
+				<div class="ow_bg_color">
+					<div class="floatbox_header">
+						<div class="ow_box_cap_icons clearfix">
+							<a title="close" class="ow_ic_delete close" href="javascript://"></a>
+						</div>
+					</div>
+					<div class="floatbox_body"></div>
+					<div class="floatbox_bottom"></div>
+				</div>
+            </div>
+        </div>
+    </div>
+
+</div><script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+            </script><script src="500%20Error_files/ga.js" type="text/javascript"></script>
+            <script type="text/javascript">
+            try {
+                var pageTracker = _gat._getTracker("UA-177483-17");
+                pageTracker._trackPageview();
+            } catch(err) {}
+            </script><script type="text/javascript" src="500%20Error_files/json2.js"></script>
+<script type="text/javascript" src="500%20Error_files/ow.js"></script>
+<script type="text/javascript" src="500%20Error_files/jquery-fieldselection.js"></script>
+<script type="text/javascript" src="500%20Error_files/forum.js"></script>
+<script type="text/javascript" src="500%20Error_files/jquery_002.js"></script>
+<script type="text/javascript" src="500%20Error_files/jquery.js"></script>
+<script type="text/javascript" src="500%20Error_files/fb.js"></script>
+<script type="text/javascript" src="500%20Error_files/console.js"></script>
+<script type="text/javascript">
+(function() {OW.ajaxComponentLoaderRsp = "http:\/\/bdsmface.com\/base\/ajax-loader\/component\/";
+OW.ajaxAttachmentLinkRsp = "http:\/\/bdsmface.com\/base\/attachment\/add-link\/";
+OW.getPing().setRspUrl("http:\/\/bdsmface.com\/base\/ping\/index\/");
+OW.Users = new OW_UsersApi();
+})();
+</script>
+<script type="text/javascript">
+$(function () {
+(function(_scope) { var form = new OwForm({"id":"form_50615797","name":"move-topic-form","reset":true,"ajax":true,"ajaxDataType":"json","validateErrorMessage":"Please fill the form properly"});window.owForms[form.name] = form;
+			
+var formElement = new OwFormElement("input_41299659", "form_name");
+form.addElement(formElement);
+var formElement = new OwFormElement("input_10588034", "topic-id");
+form.addElement(formElement);
+var formElement = new OwFormElement("input_27536975", "group-id");formElement.addValidator({
+        	validate : function( value ){
+                if(  $.isArray(value) ){ if(value.length == 0  ) throw "Required"; return;}
+                else if( !value || $.trim(value).length == 0 ){ throw "Required"; }
+        },
+        	getErrorMessage : function(){ return "Required" }
+        });
+form.addElement(formElement);
+
+
+			if ( form.form ) 
+			{
+    			$(form.form).bind( 'submit', {form:form},
+    					function(e){
+    						return e.data.form.submitForm();
+    					}
+    			);
+			}
+		})(window);
+(function(_scope) { var form = new OwForm({"id":"form_66759879","name":"sign-in","reset":false,"ajax":true,"ajaxDataType":"json","validateErrorMessage":"Please fill the form properly"});window.owForms[form.name] = form;
+			
+var formElement = new OwFormElement("input_49925978", "form_name");
+form.addElement(formElement);
+var formElement = new OwTextField("input_87976772", "identity", "Username\/Email");formElement.addValidator({
+        	validate : function( value ){
+                if(  $.isArray(value) ){ if(value.length == 0  ) throw "Required"; return;}
+                else if( !value || $.trim(value).length == 0 ){ throw "Required"; }
+        },
+        	getErrorMessage : function(){ return "Required" }
+        });
+form.addElement(formElement);
+var formElement = new OwTextField("input_60105256", "password", "password");formElement.addValidator({
+        	validate : function( value ){
+                if(  $.isArray(value) ){ if(value.length == 0  ) throw "Required"; return;}
+                else if( !value || $.trim(value).length == 0 ){ throw "Required"; }
+        },
+        	getErrorMessage : function(){ return "Required" }
+        });
+form.addElement(formElement);
+var formElement = new OwCheckboxField("input_1681376", "remember");
+form.addElement(formElement);
+
+
+			if ( form.form ) 
+			{
+    			$(form.form).bind( 'submit', {form:form},
+    					function(e){
+    						return e.data.form.submitForm();
+    					}
+    			);
+			}
+		form.bind('success', function(data){if( data.result ){OW.info(data.message);setTimeout(function(){window.location.reload();}, 1000);}else{OW.error(data.message);}});})(window);
+(function(_scope) {OW.Console = new OW_Console({"pingInterval":30000},{"console":{"time":1358415560},"invitation":{"counter":{"all":"0","new":"0"}},"mailbox":{"counter":{"all":0,"new":0}},"notification":{"counter":{"all":"0","new":"0"}}});
+})(window);
+(function(_scope) {OW.bindAutoClicks();OW.bindTips($('body'));})(window);
+(function(_scope) {
+			ForumTopic.deletePostUrl = 'http://bdsmface.com/forum/deletePost/4661/postId';
+			ForumTopic.stickyTopicUrl = 'http://bdsmface.com/forum/stickyTopic/4661/1';
+			ForumTopic.lockTopicUrl = 'http://bdsmface.com/forum/lockTopic/4661/1';
+			ForumTopic.subscribeTopicUrl = 'http://bdsmface.com/forum/subscribe-topic/4661';
+			ForumTopic.unsubscribeTopicUrl = 'http://bdsmface.com/forum/unsubscribe-topic/4661';
+			ForumTopic.deleteTopicUrl = 'http://bdsmface.com/forum/deleteTopic/4661';
+			ForumTopic.getPostUrl = 'http://bdsmface.com/forum/getPost/postId';
+			ForumTopic.add_post_input_id = 'input_95277246';
+			ForumTopic.construct({"sticky":"1","locked":"1","ishidden":false});
+			})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'sticky_topic_confirm', "Are you sure you want to make this topic sticky?");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'unsticky_topic_confirm', "This topic will not be sticky. Are you sure you want to remove this topic from sticky ones?");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'lock_topic_confirm', "Are you sure you want to lock this topic?");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'unlock_topic_confirm', "Are you sure you want to unlock this topic?");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'delete_topic_confirm', "Are you sure you want to delete the topic?");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'delete_post_confirm', "Are you sure you want to delete the post?");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'edit_topic_title', "Edit Topic");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'edit_post_title', "Edit Post");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'move_topic_title', "Move Topic");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'confirm_delete_attachment', "Are you sure you want to delete this file?");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'forum_quote', "Quote");})(window);
+(function(_scope) {OW.registerLanguageKey('forum', 'forum_quote_from', "from");})(window);
+(function(_scope) {$("#input_74869023").focus(function(){
+                if ( $(this).val() == "Search this topic" )
+                {
+                    $(this).removeClass("invitation");
+                    $(this).val("");
+                }
+            });
+            
+            $("#input_74869023").blur(function(){
+                if ( $(this).val() == "" )
+                {
+                    $(this).addClass("invitation");
+                    $(this).val("Search this topic");
+                }
+            });
+            $("form#forum_search").submit(function(){
+                var search = encodeURIComponent($("#input_74869023").attr("value"));
+                if ( search != "" )
+                {
+                    location.href = "http:\/\/bdsmface.com\/forum\/topic\/4661\/search?q=" + search;
+                }
+                return false;
+            })})(window);
+(function(_scope) {
+
+    $('#toggle_attach_link').click(function(){
+        $('#attach_file_inputs').toggle();
+    });
+    $('#toggle_attach_edit_link').click(function(){
+        $('#attach_edit_file_inputs').toggle();
+    });
+
+    $(".ow_forum_attachment").hover(
+	    function(){
+	        $(this).find("a.forum_delete_attachment").show();
+	    },
+	    function(){
+	        $(this).find("a.forum_delete_attachment").hide();
+	    }
+    );
+
+    $("a.forum_delete_attachment").each(function(){
+
+        var container_handler = $(this).parent();
+
+        $(this).click(function(){
+
+            if ( confirm(OW.getLanguageText('forum', 'confirm_delete_attachment')) )
+	        {
+	           var attachment_id = $(this).attr("rel");
+
+	           var params = {};
+	           var url = 'http://bdsmface.com/forum/deleteAttachment';
+	           params['attachmentId'] = attachment_id;
+
+	           $.ajaxSetup({dataType: 'json'});
+
+               $.post(url, params, function(data){
+
+                    if ( data.result == true )
+                    {
+                        OW.info(data.msg);
+
+                        container_handler.remove();
+                    }
+                    else if (data.error != undefined)
+                    {
+                        OW.warning(data.error);
+                    }
+               });
+	        }
+	        else
+	        {
+	            return false;
+	        }
+        });
+    });
+
+})(window);
+(function(_scope) {OW.registerLanguageKey('base', 'ajax_floatbox_users_title', "Users");})(window);
+(function(_scope) {OW.registerLanguageKey('base', 'flag_as', "Flag this as...");})(window);
+(function(_scope) {OW.registerLanguageKey('base', 'delete_user_confirmation_label', "Delete confirmation");})(window);
+(function(_scope) {OW.registerLanguageKey('admin', 'edit_language', "Edit Language");})(window);
+(function(_scope) {window.OW_FB = new OW_FBConstructor("http:\/\/connect.facebook.net\/en_US\/all.js",{"scope":"email,user_about_me,user_birthday"},{"onLoginUrl":"http:\/\/bdsmface.com\/facebook-connect\/login?backUri=forum%252Ftopic%252F4661","onSynchronizeUrl":"http:\/\/bdsmface.com\/facebook-connect\/synchronize?backUri=forum%252Ftopic%252F4661"});
+OW_FB.init({"appId":"137764732916710","status":true,"cookie":true,"xfbml":true,"channelURL":"http:\/\/bdsmface.com\/fbconnect_channel.html","oauth":true});
+})(window);
+(function(_scope) {
+                $('#console_item_50f7c6c8b5218').click(function(){new OW_FloatBox({ $contents: $('#base_cmp_floatbox_ajax_signin')});});
+            })(window);
+(function(_scope) {var flagItems;
+$('.post_flag_item a').bind('click', function() {
+     var inf = flagItems[this.id];
+                OW.flagContent("forum_post", inf.id, inf.title, inf.href, "forum+flags");
+});
+})(window);
+
+});
+</script>
+
+
+
+<div class="ow_message_cont"></div><div style="display: none; left: 466.5px; top: 371px;" class="ow_tip ow_tip_top"><div class="ow_tip_arrow"><span></span></div><div class="ow_tip_box"><span class="ow_tip_title">Michael I.</span></div></div></body></html>
